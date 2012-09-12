@@ -1,0 +1,12 @@
+This is a sample application that shows how to communicate to SOAP web services from Ext JS.
+
+Setup
+The example uses ColdFusion 10 as the backend server.  You can download a free trial from www.adobe.com.  Once installed you can place this folder on the server within the ColdFusion context.
+
+The code also assumes that Ext JS is installed in the webroot as /extjs.
+
+The default endpoint in the SOAP store is to use /cfusion/samples/People.cfc, you can modify this to wherever you get the folder installed.
+
+When running the app, it will read data into a grid, and you can either add new records with the plus button in the top right or double click a row to bring up an edit and delete window.  The data is only persisted for the immediate session and reset on the next page load.
+
+Enjoy!

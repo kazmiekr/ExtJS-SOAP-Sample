@@ -1,0 +1,6 @@
+sdk/
+.idea/
+.senchasdk
+build/
+archive/
+.sass-cache
